@@ -10,7 +10,7 @@ export class UncontrolledLogin extends React.Component {
   // }
 
   handleFormSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault(); // "enter" keybutton works in Uncontrolled Components than Controlled Ones.
 
     // const username = event.target.elements.username.value;
     // const password = event.target.elements.password.value;
